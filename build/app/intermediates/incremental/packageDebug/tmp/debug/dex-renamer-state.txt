@@ -1,0 +1,4 @@
+#Thu Dec 26 19:18:31 BRST 2019
+base.0=/home/ian/Dev/Aplicacoes/flutterProjects/login_page_2/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
