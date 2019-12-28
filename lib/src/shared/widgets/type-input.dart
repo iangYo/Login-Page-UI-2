@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-TextField typeInput(TextInputType type) {
-  return TextField(
-    keyboardType: type,
-  );
+TextInputType typeInput(TextInputType type) {
+  return type;
 }

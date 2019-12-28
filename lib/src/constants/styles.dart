@@ -4,7 +4,7 @@ class Style {
 
   static final labelStyle = TextStyle(
     color: Colors.white54,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w700,
     fontFamily: 'OpenSans',
   );
 

@@ -21,6 +21,7 @@ Widget input(String labelText, Widget icon, String textHint, bool hideText, Text
           keyboardType: typeInput,
           style: TextStyle(
             color: Colors.white,
+            fontFamily: 'OpenSans',
           ),
           decoration: InputDecoration(
             border: InputBorder.none,
