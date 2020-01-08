@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:login_page_2/src/constants/strings.dart';
 import 'package:login_page_2/src/constants/styles.dart';
+import 'package:login_page_2/src/pages/cadastro/sign_up.dart';
 import 'package:login_page_2/src/shared/widgets/button.dart';
 import 'package:login_page_2/src/shared/widgets/icons.dart';
 import 'package:login_page_2/src/shared/widgets/input.dart';
@@ -85,9 +86,11 @@ class _LoginState extends State<Login> {
                                 checkColor: Colors.orangeAccent,
                                 activeColor: Colors.white,
                                 onChanged: (value) {
-                                  setState(() {
-                                    _rememberMe = value;
-                                  },);
+                                  setState(
+                                    () {
+                                      _rememberMe = value;
+                                    },
+                                  );
                                 },
                               ),
                             ),
@@ -146,7 +149,15 @@ class _LoginState extends State<Login> {
                           ],
                         ),
                       ),
-                      linkSiSu("Novo aqui? ","Crie uma conta"),
+                      GestureDetector(
+                        onTap: () => {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => Cadastro()),
+                          ),
+                        },
+                        child: linkSwitch("Novo aqui? ", "Crie uma conta"),
+                      ),
                     ],
                   ),
                 ),

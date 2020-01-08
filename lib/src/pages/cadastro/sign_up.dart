@@ -76,7 +76,12 @@ class Cadastro extends StatelessWidget {
                       SizedBox(
                         height: 50,
                       ),
-                      linkSiSu("Tem uma conta? ", "Faça login")
+                      GestureDetector(
+                        onTap: () => {
+                          Navigator.pop(context),
+                        },
+                        child: linkSwitch("Tem uma conta? ", "Faça login"),
+                      )
                     ],
                   ),
                 ),
