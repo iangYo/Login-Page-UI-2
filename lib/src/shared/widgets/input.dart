@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:login_page_2/src/constants/styles.dart';
 
-Widget input(String labelText, Widget icon, String textHint, bool hideText, TextInputType typeInput) {
+Widget input(Widget icon, String textHint, bool hideText, TextInputType typeInput) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: <Widget>[
-      Text(
-        labelText,
-        style: Style.labelStyle,
-      ),
       SizedBox(
         height: 10,
       ),
@@ -21,7 +17,6 @@ Widget input(String labelText, Widget icon, String textHint, bool hideText, Text
           keyboardType: typeInput,
           style: TextStyle(
             color: Colors.white,
-            fontFamily: 'OpenSans',
           ),
           decoration: InputDecoration(
             border: InputBorder.none,
@@ -31,7 +26,7 @@ Widget input(String labelText, Widget icon, String textHint, bool hideText, Text
             hintStyle: Style.hintTextStyle,
           ),
         ),
-      )
+      ),
     ],
   );
 }

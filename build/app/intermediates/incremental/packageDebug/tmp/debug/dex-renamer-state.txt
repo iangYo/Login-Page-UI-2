@@ -1,4 +1,4 @@
-#Sat Dec 28 01:10:42 BRST 2019
+#Wed Jan 08 02:14:31 BRST 2020
 base.0=/home/ian/Dev/Aplicacoes/flutterProjects/Login-Page-UI-2/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

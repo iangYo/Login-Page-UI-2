@@ -5,7 +5,6 @@ class Style {
   static final labelStyle = TextStyle(
     color: Colors.white54,
     fontWeight: FontWeight.w700,
-    fontFamily: 'OpenSans',
   );
 
   static final boxDecorationStyle = BoxDecoration(
@@ -22,6 +21,5 @@ class Style {
 
   static final hintTextStyle = TextStyle(
     color: Colors.white70,
-    fontFamily: 'OpenSans',
   );
 }

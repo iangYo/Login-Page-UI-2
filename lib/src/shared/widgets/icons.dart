@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-Widget icons(IconData icon) {
+Widget icons(IconData _icon) {
   return Icon(
-    icon,
+    _icon,
     color: Colors.white,
   );
 }
