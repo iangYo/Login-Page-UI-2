@@ -1,16 +1,9 @@
-# Login-Page-UI-2
+# Login Page
 
-A new Flutter project.
+Página de login e cadastro desenvolvida com Flutter e inspirada no design de [krunal ramoliya](https://dribbble.com/shots/5871600-Login-screen-UI-Design).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53586612/72100155-e3051880-3300-11ea-9622-476e453e7e3d.png" width="250" hspace="20">
+  <img src="https://user-images.githubusercontent.com/53586612/72100296-22336980-3301-11ea-9a9b-dbe680554348.png" width="250" hspace="20">
+</p>
