@@ -45,12 +45,14 @@ class _LoginState extends State<Login> {
                 ),
               ),
               Container(
-                height: double.infinity,
+                height: MediaQuery.of(context).size.height,
                 child: SingleChildScrollView(
                   physics: AlwaysScrollableScrollPhysics(),
-                  padding: EdgeInsets.symmetric(
-                    horizontal: 40,
-                    vertical: 120,
+                  padding: EdgeInsets.only(
+                    right: 40,
+                    left: 40,
+                    top: 120,
+                    bottom: 0
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -113,7 +115,7 @@ class _LoginState extends State<Login> {
                         ),
                       ),
                       SizedBox(
-                        height: 30,
+                        height: 20,
                       ),
                       button("LOGIN"),
                       SizedBox(
@@ -134,7 +136,10 @@ class _LoginState extends State<Login> {
                         ],
                       ),
                       Padding(
-                        padding: EdgeInsets.symmetric(vertical: 30),
+                        padding: EdgeInsets.only(
+                          top: 5,
+                          bottom: 20
+                        ),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: <Widget>[
@@ -143,8 +148,8 @@ class _LoginState extends State<Login> {
                               AssetImage('assets/icons/facebook.png'),
                             ),
                             socialbtn(
-                              () => print('Login com Gmail'),
-                              AssetImage('assets/icons/facebook.png'),
+                              () => print('Login com Twitter'),
+                              AssetImage('assets/icons/twitter.png'),
                             ),
                           ],
                         ),
